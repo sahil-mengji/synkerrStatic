@@ -4,7 +4,7 @@
 .App-header{
     display: flex;
     justify-content: space-between;   
-    margin: 1% 1% 1% 1%;
+    margin: 0 1% 1% 1%;
 }
 .LogoAndText{
     display: flex;
@@ -24,6 +24,9 @@
     display: flex;
     width: 30%;
     justify-content: space-between;
+}
+.three-on-top h3{
+    color: gray;
 }
 .contact-button{
     background-color: #302D50;
