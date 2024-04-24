@@ -1,10 +1,8 @@
 import React from 'react'
-
+import Carousel from './components/Carousel'
 const App = () => {
   return (
-    <div className='h-screen w-full bg-slate-300 text-5xl'>
-      Synker
-    </div>
+    <Carousel/>
   )
 }
 
