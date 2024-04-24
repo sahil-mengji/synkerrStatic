@@ -33,8 +33,9 @@ function App() {
         </div>
       </div>
       <div className='ConnectTeamUpCollaborate'>
-        <img src="/image8.png" alt="Connect-Team Up"/>
-        <p>Connect . TeamUp . Collaborate</p>
+        <p className='ConnectTeamUpCollaboratePart1'>Connect . </p>
+        <p className='ConnectTeamUpCollaboratePart2'>Team Up . </p>
+        <p className='ConnectTeamUpCollaboratePart3'>Collaborate . </p>
       </div>
       
       </body>
