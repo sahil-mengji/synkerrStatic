@@ -34,3 +34,32 @@
     padding: 8px 20px;
     border-radius: 27px;
 }
+.HeroText{
+    display: flex;
+    margin-top: 10%;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-image: url('./image4.png'),url('image5.png');
+    background-repeat: no-repeat;
+    background-size: auto,contain;
+    background-position: 10%,85%;
+}
+.HeroText .HeroText1{
+    color: #A9A9A9;
+    font-size: 3em;
+}
+.HeroText .HeroText2{
+    color:white;
+    font-size: 3em;
+    margin-bottom: 4%;
+}
+.HeroText .HeroText3{
+    background-color: #A79FFF;
+    color: black;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 8px 20px;
+    border-radius: 27px;
+    margin-bottom: 2%;
+}

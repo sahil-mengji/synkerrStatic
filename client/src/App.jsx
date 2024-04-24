@@ -18,24 +18,12 @@ function App() {
       </header>
 
       <body className='Body'>
-        <div className='bodyI'>
-          <img src="/image4.png" className="bodyI1" alt="image4" />
-          <p>Exploit the power of</p>
-          <img src="/image5.png" className="bodyI2" alt="image5" />
+        <div className='HeroText'>
+          <p className='HeroText1'>Exploit the power of</p>
+          <p className='HeroText2'>Purposful Connections</p>
+          <p className='HeroText3'>Join the Waitlist -{'>'} </p>
+          <img src="/image7.png" className='beta' alt="image7" />
         </div>
-        <p>Purposful Connections</p>
-
-        <div className='WaitList'>
-          <img src="/image6.png" className="WaitList" alt="image6" />
-          <p>Join the Waitlist -{'>'} </p>
-        </div>
-        <img src="/image7.png" className='beta' alt="image7" />
-        <div className='scroll'>
-          <img src="/image8.png" className='prop1' alt="image8" />
-          <p className='ST'>Scroll Down</p>
-          <img src="/image9.png" className='prop2' alt="image9" />
-        </div>
-        
       </body>
     </div>
 
