@@ -84,12 +84,10 @@
 
 .ConnectTeamUpCollaborate {
     position: absolute;
+    height: 15%;
+    width: 15%;
+}
+.Globe{
     display: flex;
-    background-image: url('./image8.png');
-    background-position: 0;
-    background-repeat: no-repeat;
-    background-size: 50%;
-    color: #A79FFF;
-    margin-top: 10em;
-    padding: 10%;
+    color: white;
 }

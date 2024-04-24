@@ -33,14 +33,15 @@ function App() {
         </div>
       </div>
       <div className='ConnectTeamUpCollaborate'>
-        <p className='ConnectTeamUpCollaboratePart1'>Connect . </p>
-        <p className='ConnectTeamUpCollaboratePart2'>Team Up . </p>
-        <p className='ConnectTeamUpCollaboratePart3'>Collaborate . </p>
+        <img src="/image9.png" />
+      </div>
+      <div className='Globe'>
+        <p>Jai sri Ram</p>
+        <p>Jai hanuman</p>
       </div>
       
       </body>
     </div>
-
   );
 }
 
