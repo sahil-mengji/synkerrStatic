@@ -64,3 +64,23 @@
     border-radius: 27px;
     margin-bottom: 2%;
 }
+.ScrollDownText{
+    display: flex;
+    color: #888888;
+    margin-top: 5%;
+    font-size: 1em;
+    background-color:black;
+    border: 1px solid #888888;
+    padding: 8px 20px;
+    border-radius: 27px;
+}
+.material-symbols-outlined{
+    color: white;
+    font-size: 20px;
+}/*need to make the arrow bold idk how */
+
+.ConnectTeamUpCollaborate{
+    position: relative;
+    color: white;
+    box-sizing: border-box;
+}

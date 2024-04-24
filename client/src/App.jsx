@@ -27,9 +27,16 @@ function App() {
           <p className='HeroText2'>Purposful Connections</p>
           <p className='HeroText3'>Join the Waitlist -{'>'} </p>
           <img src="/image7.png" className='beta' alt="image7" />
+          <div className='ScrollDownButton'></div>
+          <p className='ScrollDownText'>Scroll Down  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100" rel="stylesheet" />
+          <span class="material-symbols-outlined">arrow_downward</span></p>
         </div>
       </div>
-        
+      <div className='ConnectTeamUpCollaborate'>
+        <img src="/image8.png" alt="Connect-Team Up"/>
+        <p>Connect . TeamUp . Collaborate</p>
+      </div>
+      
       </body>
     </div>
 
