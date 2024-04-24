@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Globe from './Globe';
 
 function App() {
   return (
@@ -35,11 +36,19 @@ function App() {
       <div className='ConnectTeamUpCollaborate'>
         <img src="/image9.png" />
       </div>
-      <div className='Globe'>
-        <p>Jai sri Ram</p>
-        <p>Jai hanuman</p>
+      <div className='GlobeAnimation'>
+        <Globe className='SpinningGlobe'/>
+        <div className='GlobeText'>
+          <p>Random</p>
+          <p>Ass</p>
+          <p>Text</p>
+        </div>
       </div>
-      
+      <div className='GlobeText2'>
+          <p>Even More Random</p>
+          <p>Ass</p>
+          <p>Text</p>
+      </div>
       </body>
     </div>
   );
