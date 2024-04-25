@@ -1,13 +1,18 @@
-import React from "react";
-import "./App.css";
-import HeroSection from "./sections/HeroSection";
 
-function App() {
-	return (
-		<>
-			<HeroSection />
-		</>
-	);
+import React from 'react'
+import HeroSection from './components/HeroSection'
+import Globe from './components/Globe'
+import Carousel from './components/Carousel'
+const App = () => {
+  return (
+    <div className='App'>
+      <HeroSection/>
+      <Globe/>
+      <Carousel/>
+    </div>
+    
+
+  )
 }
+export default App
 
-export default App;
