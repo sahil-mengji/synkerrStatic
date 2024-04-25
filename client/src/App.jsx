@@ -1,3 +1,4 @@
+
 import React from 'react'
 import HeroSection from './components/HeroSection'
 import Globe from './components/Globe'
@@ -14,3 +15,4 @@ const App = () => {
   )
 }
 export default App
+
