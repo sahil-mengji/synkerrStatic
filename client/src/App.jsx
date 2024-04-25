@@ -10,6 +10,7 @@ const App = () => {
       <Carousel/>
     </div>
     
+
   )
 }
 export default App
