@@ -1,6 +1,6 @@
 import React from 'react'
-import HeroSection from './HeroSection'
-import Globe from './Globe'
+import HeroSection from './components/HeroSection'
+import Globe from './components/Globe'
 import Carousel from './components/Carousel'
 const App = () => {
   return (
