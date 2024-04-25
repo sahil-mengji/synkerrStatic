@@ -1,5 +1,6 @@
 import React, { useRef, useState, useEffect } from "react";
 import "../App.css";
+import "./Carousel.css";
 import { Tabs, Tab } from "@nextui-org/react";
 import { Avatar } from "@nextui-org/react";
 
