@@ -9,6 +9,7 @@ const App = () => {
       <HeroSection/>
       <Globe/>
       <Carousel/>
+      <div></div>
     </div>
     
 
