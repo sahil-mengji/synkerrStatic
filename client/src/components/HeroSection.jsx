@@ -1,7 +1,10 @@
 import React, { useRef } from 'react';
 import './HeroSection.css';
 
-function HeroSection() {
+function HeroSection({bottomRef}) {
+  const scrollToBottom = () => {
+    bottomRef.current.scrollIntoView({ behavior: 'smooth' });
+  };
   return (
     <div className="App bg-black min-h-screen">
       <header className="App-header"></header>
@@ -21,8 +24,7 @@ function HeroSection() {
             <p className='HeroText2'>Purposful Connections</p>
             <p className='HeroText3'>Join the Waitlist -{'>'} </p>
             <div>🎉 <span className="text-yellow-500"> BETA</span> version Dropping Soon</div>
-            <div className='ScrollDownButton'></div>
-            <p className='ScrollDownText'>
+            <p className='ScrollDownText' onClick={scrollToBottom}>
               Scroll Down <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100" rel="stylesheet" />
               <span className="material-symbols-outlined">arrow_downward</span>
             </p>

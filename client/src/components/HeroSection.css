@@ -72,6 +72,11 @@
     padding: 8px 20px;
     border-radius: 27px;
 }
+.ScrollDownText:hover{
+    font-weight: bolder;
+    color: white;
+    cursor: pointer;
+}
 .material-symbols-outlined{
     color: white;
     font-size: 20px;
