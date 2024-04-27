@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React from 'react';
 
 
 function HeroSection({bottomRef}) {
@@ -27,13 +27,15 @@ function HeroSection({bottomRef}) {
             <div className="flex text-base bg-black border border-[#888888] px-5 py-2 rounded-[27px] cursor-pointer mt-20 text-[#888888]" style={{ color: '#888888'}} onClick={scrollToBottom}>
           Scroll Down <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100" rel="stylesheet" />
           <span className="material-symbols-outlined">arrow_downward</span>
+
         </div>
         </div>
-        </div>
+      </div>
+      
         <img src="/image9.png" className="absolute h-[25%] w-[15%]" />
       </body>
     </div>
-  );
+    );
 }
 
 export default HeroSection;

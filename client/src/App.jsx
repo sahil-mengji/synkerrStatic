@@ -10,7 +10,6 @@ const App = () => {
     <div className='App'>
       <HeroSection bottomRef={bottomRef}/>
       <div className='Globe' ref={bottomRef}><Globe/></div>
-      
       <Carousel/>
     </div>
   )
