@@ -2,8 +2,14 @@ import "./GlobeAnimation.css";
 
 import createGlobe from "cobe";
 import { useEffect, useRef } from "react";
-
-// https://github.com/shuding/cobe
+let w,h;
+if (window.matchMedia("(min-width: 640px)").matches && window.matchMedia("(max-width: 1240px)").matches) {
+  w = 1.5;
+  h = 1.5;
+}
+else{
+  w=2,h=2;
+}
 
 export default function App() {
   const canvasRef = useRef();
@@ -13,8 +19,8 @@ export default function App() {
 
     const globe = createGlobe(canvasRef.current, {
       devicePixelRatio: 2,
-      width: 600 * 2,
-      height: 600 * 2,
+      width: 600 * w,
+      height: 600 * h,
       phi: 0,
       theta: 0,
       dark: 1,
@@ -42,8 +48,9 @@ export default function App() {
     };
   }, []);
 
+ 
   return (
-    <div className="App">
+    <div className="GlobeA">
       <canvas
         ref={canvasRef}
         style={{ width: 600, height: 600, maxWidth: "1000%", aspectRatio: 1 }}
