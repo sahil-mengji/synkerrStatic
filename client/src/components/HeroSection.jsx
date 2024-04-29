@@ -1,5 +1,5 @@
+import { image } from '@nextui-org/react';
 import React from 'react';
-
 
 function HeroSection({bottomRef}) {
   const scrollToBottom = () => {
@@ -8,17 +8,17 @@ function HeroSection({bottomRef}) {
   return (
     <div className="App bg-black min-h-screen">
       <body className='Body'>
-        <div className='position relative'>
-          <div className='flex justify-between items-center'>
+        <div className='position relative  bg-local' style={{backgroundImage: "url('/purplebackdrop.svg')",backgroundRepeat: 'no-repeat'}}>
+          <div className='flex justify-between items-center' >
             <img src="logo.svg" alt="logo" />
-            <div className='flex justify-between w-1/4  text-lg rounded-full'>
-              <h3 className='text-gray-400'>Our Aim</h3>
+            <div className='flex justify-between w-1/4  text-lg rounded-full '>             
+             <h3 className='text-gray-400'>Our Aim</h3>
               <h3 className='text-gray-400'>Team</h3>
               <h3 className='text-gray-400'>What we do</h3>
             </div>
             <p className="bg-[#302D50] text-white text-base px-5 py-2 rounded-full">Contact Us</p>
           </div>
-          <div className="flex flex-col items-center mt-10 text-white bg-no-repeat" style={{backgroundImage: "url('./image4.png'), url('./image5.png')",
+          <div className="flex flex-col items-center mt-20 text-white bg-no-repeat" style={{backgroundImage: "url('/center1.svg'), url('/center2.svg')",
             backgroundSize: '30%, contain',backgroundPosition: '10%, 85%'}}>
             <p className='text-[#A9A9A9] text-4xl mb-6'>Exploit the power of</p>
             <p className='text-white mb-6 text-5xl'>Purposful Connections</p>
