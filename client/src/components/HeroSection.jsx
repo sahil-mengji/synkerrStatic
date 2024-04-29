@@ -35,7 +35,7 @@ function HeroSection({bottomRef}) {
         <img src="/image9.png" className="absolute h-[25%] w-[15%]" />
       </body>
     </div>
-    );
+  );
 }
 
 export default HeroSection;
