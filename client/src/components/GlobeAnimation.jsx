@@ -25,7 +25,7 @@ export default function App() {
       diffuse: 1.2,
       mapSamples: 16000,
       mapBrightness: 6,
-      baseColor: [0.3647, 0.1294, 0.4980],
+      baseColor: [0.3647, 0.1294, 0.6],
       markerColor: [0.1, 0.8, 1],
       glowColor: [1, 1, 1],
       markers: [

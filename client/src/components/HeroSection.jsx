@@ -1,3 +1,4 @@
+import { image } from '@nextui-org/react';
 import React from 'react';
 
 function HeroSection({ bottomRef, TeamRef }) {
