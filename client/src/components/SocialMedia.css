@@ -5,31 +5,56 @@
     justify-content: center;
     padding: 10%;
     transition: all 0.3s ease-in-out;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Adjusted shadow */
-    transform: rotateX(-30deg) rotateY(10deg); /* Add rotation */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    transform: rotateX(10deg) rotateY(10deg);
+    animation: floatIcon 4s infinite ease-in-out;
+    margin-top: 5%;
   }
   
   .TD a svg {
-    font-size: 2rem; /* Default size */
+    font-size: 2rem;
   }
   
-  /* Adjust size for smaller screens */
   @media (max-width: 767px) {
     .TD a svg {
       font-size: 1.5rem;
     }
   }
   
-  /* Adjust size for larger screens */
   @media (min-width: 768px) {
     .TD a svg {
       font-size: 3rem;
     }
   }
-  
-  /* Hover effect */
-  .TD a:hover {
-    transform: scale(1.1) translateY(-10px) rotateX(15deg) rotateY(15deg); /* Adjust rotation on hover */
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); /* Stronger shadow on hover */
-    background-color: #391c6f; /* Darker background color on hover */
+  .TD a:first-child:hover { 
+    background-color: rgb(25, 35, 168); 
+    transform: scale(1.1) translateY(-10px) rotateX(15deg) rotateY(15deg);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    animation: none; 
   }
+  .TD a:nth-child(2):hover {
+    background-color: #C13584;
+    transform: scale(1.1) translateY(-10px) rotateX(15deg) rotateY(15deg);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    animation: none; 
+  }
+  
+  .TD a:nth-child(3):hover {
+    background-color: cyan;
+    transform: scale(1.1) translateY(-10px) rotateX(15deg) rotateY(15deg);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    animation: none;
+  }
+  
+  @keyframes floatIcon {
+    0% {
+      transform: rotateX(10deg) rotateY(10deg) translateY(0);
+    }
+    50% {
+      transform: rotateX(10deg) rotateY(10deg) translateY(-10px);
+    }
+    100% {
+      transform: rotateX(10deg) rotateY(10deg) translateY(0);
+    }
+  }
+  
