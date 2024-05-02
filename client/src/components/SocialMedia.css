@@ -1,0 +1,35 @@
+.TD a {
+    display: flex;
+    align-items: center;
+    background-color: #2C1A4D;
+    justify-content: center;
+    padding: 10%;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Adjusted shadow */
+    transform: rotateX(-30deg) rotateY(10deg); /* Add rotation */
+  }
+  
+  .TD a svg {
+    font-size: 2rem; /* Default size */
+  }
+  
+  /* Adjust size for smaller screens */
+  @media (max-width: 767px) {
+    .TD a svg {
+      font-size: 1.5rem;
+    }
+  }
+  
+  /* Adjust size for larger screens */
+  @media (min-width: 768px) {
+    .TD a svg {
+      font-size: 3rem;
+    }
+  }
+  
+  /* Hover effect */
+  .TD a:hover {
+    transform: scale(1.1) translateY(-10px) rotateX(15deg) rotateY(15deg); /* Adjust rotation on hover */
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); /* Stronger shadow on hover */
+    background-color: #391c6f; /* Darker background color on hover */
+  }
