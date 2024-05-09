@@ -16,13 +16,13 @@ const Carousel = () => {
 				name: "Abhay Tai",
 				role: "Founder",
 				image:
-					"https://img.freepik.com/free-photo/close-up-portrait-smiling-young-bearded-man_171337-4819.jpg?w=1060&t=st=1713959851~exp=1713960451~hmac=34940b0d57af03134523c3886b183e38c73ce7678f31fe88965bd80f1d10ff46",
+					"https://media.licdn.com/dms/image/D5603AQFm5xdxd0vHKA/profile-displayphoto-shrink_100_100/0/1712607280250?e=1720656000&v=beta&t=dLXQtOIiC5v-M6PJf8M67iKpUwgKDYP4bamsx0rWLz4",
 			},
 			{
 				name: "Sahil Mengji",
 				role: "Co-Founder",
 				image:
-					"https://img.freepik.com/free-photo/portrait-friendly-looking-happy-attractive-male-model-with-moustache-beard-wearing-trendy-transparent-glasses-smiling-broadly-while-listening-interesting-story-waiting-mom-give-meal_176420-22400.jpg?size=626&ext=jpg&ga=GA1.1.546243260.1706593150&semt=ais",
+					"https://media.licdn.com/dms/image/D5603AQEamguVr4e5UA/profile-displayphoto-shrink_400_400/0/1701718025399?e=1720656000&v=beta&t=Rx05yZTySavIqsUoFPgtmjMbxvND10Nvg0GddUolyPQ",
 			},
 			{
 				name: "Sahil Kumar",
@@ -30,25 +30,19 @@ const Carousel = () => {
 				image:
 					"https://img.freepik.com/free-photo/young-adult-enjoying-virtual-date_23-2149328221.jpg?size=626&ext=jpg&ga=GA1.1.546243260.1706593150&semt=ais",
 			},
-			{
-				name: "John Doe",
-				role: "Web Developer",
-				image:
-					"https://img.freepik.com/premium-photo/portrait-friendly-man-north-african-descent_774935-2943.jpg?size=626&ext=jpg&ga=GA1.1.546243260.1706593150&semt=ais",
-			},
 		],
 		Founders: [
 			{
 				name: "Abhay Tai",
 				role: "Founder",
 				image:
-					"https://img.freepik.com/premium-photo/portrait-friendly-man-north-african-descent_774935-2943.jpg?size=626&ext=jpg&ga=GA1.1.546243260.1706593150&semt=ais",
+					"https://media.licdn.com/dms/image/D5603AQFm5xdxd0vHKA/profile-displayphoto-shrink_100_100/0/1712607280250?e=1720656000&v=beta&t=dLXQtOIiC5v-M6PJf8M67iKpUwgKDYP4bamsx0rWLz4",
 			},
 			{
 				name: "Sahil Mengji",
 				role: "Co-Founder",
 				image:
-					"https://img.freepik.com/free-photo/young-adult-enjoying-virtual-date_23-2149328221.jpg?size=626&ext=jpg&ga=GA1.1.546243260.1706593150&semt=ais",
+					"https://media.licdn.com/dms/image/D5603AQEamguVr4e5UA/profile-displayphoto-shrink_400_400/0/1701718025399?e=1720656000&v=beta&t=Rx05yZTySavIqsUoFPgtmjMbxvND10Nvg0GddUolyPQ",
 			},
 			{
 				name: "Sahil Kumar",
@@ -59,20 +53,20 @@ const Carousel = () => {
 		],
 		webTeam: [
 			{
-				name: "John Doe",
-				role: "Frontend Developer",
+				name: "Abhay Tai",
+				role: "Founder",
 				image:
-					"https://img.freepik.com/premium-photo/portrait-friendly-man-north-african-descent_774935-2943.jpg?size=626&ext=jpg&ga=GA1.1.546243260.1706593150&semt=ais",
+					"https://media.licdn.com/dms/image/D5603AQFm5xdxd0vHKA/profile-displayphoto-shrink_100_100/0/1712607280250?e=1720656000&v=beta&t=dLXQtOIiC5v-M6PJf8M67iKpUwgKDYP4bamsx0rWLz4",
 			},
 			{
-				name: "Silber",
-				role: "Backend Developer",
+				name: "Sahil Mengji",
+				role: "Co-Founder",
 				image:
-					"https://img.freepik.com/free-photo/young-adult-enjoying-virtual-date_23-2149328221.jpg?size=626&ext=jpg&ga=GA1.1.546243260.1706593150&semt=ais",
+					"https://media.licdn.com/dms/image/D5603AQEamguVr4e5UA/profile-displayphoto-shrink_400_400/0/1701718025399?e=1720656000&v=beta&t=Rx05yZTySavIqsUoFPgtmjMbxvND10Nvg0GddUolyPQ",
 			},
 			{
-				name: "Cameron",
-				role: "Backend Developer",
+				name: "Sahil Kumar",
+				role: "Co-Founder",
 				image:
 					"https://img.freepik.com/free-photo/close-up-portrait-smiling-young-bearded-man_171337-4819.jpg?w=1060&t=st=1713959851~exp=1713960451~hmac=34940b0d57af03134523c3886b183e38c73ce7678f31fe88965bd80f1d10ff46",
 			},
@@ -251,4 +245,3 @@ const Carousel = () => {
 };
 
 export default Carousel;
-  
