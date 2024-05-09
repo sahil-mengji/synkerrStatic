@@ -115,7 +115,7 @@ const Carousel = () => {
 	}, [autoSlideEnabled]); // Re-run effect when auto slide state changes
 
 	return (
-		<div className="h-screen w-full bg-black text-5xl flex flex-col justify-center items-center">
+		<div className="h-screen w-full bg-black text-5xl flex flex-col justify-center items-center mt-60">
 			<div className="h-[20%] w-full bg-black flex justify-center items-center">
 				<h1 className="" id="Team">
 					OUR TEAM

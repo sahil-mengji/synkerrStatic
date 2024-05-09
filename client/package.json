@@ -11,10 +11,12 @@
   },
   "dependencies": {
     "@nextui-org/react": "^2.3.5",
+    "bootstrap-icons": "^1.11.3",
     "cobe": "^0.6.3",
     "framer-motion": "^11.1.7",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",

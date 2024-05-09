@@ -1,0 +1,76 @@
+.TD a {
+  display: flex;
+  align-items: center;
+  background-color: #2C1A4D;
+  justify-content: center;
+  padding: 10%;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  animation: floatIcon 4s infinite ease-in-out;
+  margin-top: 5%;
+}
+.TD a {
+  background: #2C1A4D;
+  display: flex;
+  align-items: center;
+  transition: 0.5s;
+  padding: 9%;
+  box-shadow: 14px 14px 10px #472782;
+  position: relative;
+  transform-style: preserve-3d;
+  perspective: 800px;
+}
+
+
+.TD a svg {
+  font-size: 2rem;
+}
+
+@media (max-width: 1024px) {
+  .TD{
+    display: flex;
+    flex-direction: column;
+  }
+  .TD a svg {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .TD a svg {
+    font-size: 3rem;
+  }
+}
+
+.TD a:first-child:hover { 
+  background-color: rgb(25, 35, 168); 
+  transform: scale(1.1) translateY(-10px);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  animation: none; 
+}
+
+.TD a:nth-child(2):hover {
+  background-color: #C13584;
+  transform: scale(1.1) translateY(-10px);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  animation: none; 
+}
+
+.TD a:nth-child(3):hover {
+  background-color: cyan;
+  transform: scale(1.1) translateY(-10px);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  animation: none;
+}
+
+@keyframes floatIcon {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
